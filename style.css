@@ -98,7 +98,8 @@ body{
     transition: all 300ms ease;
 }
  
-.card-links--items:hover{
+.card-links--items:hover,
+.card-links--items:focus-visible{
     color: var(--clr-neutral-400);
     background-color: var(--clr-primary);
 }
